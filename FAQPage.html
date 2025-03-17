@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+        <title>FAQ</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="navigatorBar.css">
+        <link rel="stylesheet" href="text.css">
+        <link rel="stylesheet" href="grid.css">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        
+
+    </head>
+
+    <body style="background-color: #404040;">
+        <div class="nav_bar" id="navigator">
+            <img src="image/LogoBU.png">
+            <a href="HomePage.html">Home Page</a>
+            <a href="MapPage.html">Map</a>
+            <a href="WorkshopAndAct.html">Activity</a>
+            <a href="ContactUsPage.html">Contact</a>
+            <a href="FAQPage.html">FAQ</a>
+            <a href="javascript:void(0);" class="iconPop" onclick="TapbarResponsive()">
+                <img src="image/menu.png" width="50" height="50">
+            </a>
+        </div>
+        <div class="contact">
+            <h1>FAQ</h1>
+            
+            <div class="grid">
+                <div class="cell" onclick="showPopup('0')">งาน BU Open House 2024 <br> จัดขึ้นเมื่อไหร่ และจัดที่ไหน?</div>
+                <div class="cell" onclick="showPopup('1')">เข้าร่วมงานต้องลงทะเบียนไหม?</div>
+                <div class="cell" onclick="showPopup('2')">เลือกลงทะเบียนเข้าร่วมกิจกรรมได้กี่คณะ?</div>
+                <div class="cell" onclick="showPopup('3')">การแต่งกาย ใส่ชุดอะไรไปดี?</div>
+                <div class="cell" onclick="showPopup('4')">กิจกรรมคณะต่าง ๆ เริ่มตั้งแต่กี่โมง<br>และสิ้นสุดเมื่อไหร่?</div>
+                <div class="cell" onclick="showPopup('5')">ทุกคณะมีเปิดบ้านทุกวันไหม?<br>และทั้ง 3 วันมีกิจกรรมเหมือนกันไหม?</div>
+
+            </div>
+            <!-- Popup -->
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <p id="popup-message"></p>
+                    <button class="close-btn" onclick="closePopup()">close</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="navigatorBar.js"></script>
+        <script src="grid.js"></script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

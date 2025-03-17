@@ -1,0 +1,20 @@
+ /* ตั้งค่าให้คอนเทนเนอร์เลื่อนแนวนอนได้ */
+ .scroll-container {
+    width: 100%;
+    overflow-x: auto; /* เปิดการเลื่อนแนวนอน */
+    white-space: nowrap; /* ทำให้เนื้อหาไม่ขึ้นบรรทัดใหม่ */
+    /* ยกเลิกการซ่อน Scroll Bar */
+}
+
+/* การตั้งค่าของรายการรูปภาพ */
+.scroll-item {
+    display: inline-block; /* วางรูปภาพให้อยู่ติดกัน */
+    width: 300px;
+    margin-right: 10px; /* ระยะห่างระหว่างรูป */
+}
+
+/* การตั้งค่าของรูปภาพ */
+.scroll-item img {
+    width: 100%;
+    border-radius: 10px; /* ทำมุมรูปภาพให้โค้ง */
+}

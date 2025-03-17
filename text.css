@@ -1,0 +1,58 @@
+.contact h1{
+        padding: auto;
+        color: white;
+        padding: 20px ;
+        background-color: rgb(41, 41, 41);
+        font-size: 50px;
+    }
+    .contact h2{
+        color: white;
+        text-align: left;
+        margin: 20px;
+    }
+    .contact a{
+        font-size: 40px;
+        margin: 20px;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(49, 49, 49);
+    }
+    .contact a:hover{
+        color: black;
+        background-color: white;
+    }
+h3{
+    color: black;
+    background-color: wheat;
+}
+p1{
+    color: black;
+    background-color: whitesmoke;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.map{
+    flex: 1;
+    margin-right: 20px;
+}
+.word{
+    color: white;
+    width: 60%;
+}
+.marker {
+    width: 10px;
+    height: 10px;
+    background-color: white; /* เปลี่ยนสีของ marker ได้ */
+    border-radius: 50%; /* ทำให้ marker เป็นวงกลม */
+    margin-right: 10px; /* เพิ่มระยะห่างระหว่าง marker กับข้อความ */
+    margin-top: 10px;
+}
+p3{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: -19px;
+}

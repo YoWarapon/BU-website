@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+        <title>Activity</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <link rel="stylesheet" href="navigatorBar.css">
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="scrollBar.css">
+        <link rel="stylesheet" href="text.css">
+        <link rel="stylesheet" href="tab.css">
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        
+
+     
+    </head>
+
+    <body style="background-color: #404040;">
+        <div class="nav_bar" id="navigator">
+            <img src="image/LogoBU.png">
+            <a href="HomePage.html">Home Page</a>
+            <a href="MapPage.html">Map</a>
+            <a href="WorkshopAndAct.html">Activity</a>
+            <a href="ContactUsPage.html">Contact</a>
+            <a href="FAQPage.html">FAQ</a>
+            <a href="javascript:void(0);" class="iconPop" onclick="TapbarResponsive()">
+                <img src="image/menu.png" width="50" height="50">
+            </a>
+        </div>
+        <div class="contact">
+            <h1>Workshop and Activity</h1>            
+        </div>
+        <div class="tab">
+            <div class="scroll-container">
+            <!-- รายการรูปภาพ -->
+            <div class="scroll-item">
+                <img src="image/1.jpg" class="tablinks" onclick="openInfo(event,'proCenter')">
+            </div>
+            <div class="scroll-item">
+                <img src="image/2.jpg" class="tablinks" onclick="openInfo(event,'crusterCenter')">
+            </div>
+            <div class="scroll-item">
+                <img src="image/3.jpg" class="tablinks" onclick="openInfo(event,'proAct')">
+            </div>
+            <div class="scroll-item">
+                <img src="image/6.jpg" class="tablinks" onclick="openInfo(event,'proCer')">
+            </div>
+            <div class="scroll-item">
+                <img src="image/4.jpg" class="tablinks" onclick="openInfo(event,'food')">
+            </div>
+            <div class="scroll-item">
+                <img src="image/5.jpg" class="tablinks" onclick="openInfo(event,'night')">
+            </div>
+            </div>
+        </div>
+
+        <div id="proCenter" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>PRO-CENTER <br>ลองรู้จักตัวเอง</h3>
+            <p1>จุดเริ่มต้นเส้นทางการลองที่ทุกคนจะได้เจอบริเวณอาคาร A3 เป็นจุดลงทะเบียนกลาง 
+                พร้อมให้ข้อมูลเกี่ยวกับคณะและสาขาต่าง ๆ มีรุ่นพี่แนะนำกิจกรรมไฮไลต์น่าสนใจ 
+                และตารางเวลาทั้งหมด อีกทั้งยังมีของเด็ดรอให้ไปลองเล่นคือ <br>
+                FIND YOUR PRO-PASSION QUIZ  ที่จะพาทุกคนรู้จักความชอบของตัวเองมากขึ้น 
+                คลัสเตอร์ไหน คณะไหนที่เหมาะกับคุณ และเป็นตัวช่วยปักหมุดเส้นทางให้ได้ไปลองเล่นที่คณะต่างๆ 
+                ได้ง่ายกว่าเดิม นอกจากนี้ยังมี <br>PRO-STAGE เป็นกิจกรรมกลางไว้ให้ทุกคนได้มาเอ็นจอยกันอีกด้วย</p1>
+          </div>
+          <div id="crusterCenter" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>CLUSTER CENTER <br>ลองหาแพชชัน</h3>
+            <p1>มาลองหาคณะที่ใช่ สาขาและกิจกรรมที่อยากลองได้ที่จุดนี้ Cluster Center
+                จุดรวมพลของคนมี DNA เดียวกัน ไม่ว่าจะ Business Creative Innovative และ BU International
+                ด้วย Character ที่ออกแบบมาโดยเฉพาะ ช่วยบอกตำแหน่งของแต่ละคลัสเตอร์กระจายตามที่ต่าง ๆ
+                เป็นจุดให้ข้อมูลรายชื่อคณะ พร้อมตารางกิจกรรมในคลัสเตอร์นั้น ๆ</p1>
+          </div>
+          <div id="proAct" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>PRO-ACTIVITIES <br>ลองฝึกทําจริง</h3>
+            <p1>พื้นที่ของการลองเล่นเพื่อหาความโปรให้กับแพชชันที่ชอบ ด้วยกิจกรรมมากมายหลากหลายเต็มไปหมดจากคณะสาขาต่าง ๆ 
+                เปิดโอกาสให้ทุกคนที่มาเข้าร่วมได้ลองคิดจริง ลองจับอุปกรณ์จริง ลองลงมือทําจริง ได้ความรู้จากอาจารย์ตัวจริงในสาขา
+                และเปิดโลกไปกับ Pro-Partner ของ BU ที่เชี่ยวชาญของจริง และมีรุ่นพี่คอยพูดคุย ดูแล 
+                แชร์ประสบการณ์ชีวิตมหาลัยของจริงให้ทุกคนสนุกไปด้วยกัน เป็นการลองเล่นให้เป็นโปร 
+                สัมผัสประสบการณ์ของจริงที่ไม่เคยลองได้ที่ไหนนอกจากที่ BU OPEN HOUSE นี้</p1>
+          </div>
+          <div id="proCer" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>PRO-CERTIFICATE <br>ลองล่าใบเซอร์ใส่พอร์ต</h3>
+            <p1>ไฮไลต์สําคัญอีกอย่างหนึ่งในปีนี้นอกจากการลองเล่นอย่างสมจริงแล้ว อีกหนึ่งของสําคัญที่จะได้กลับไปคือ 
+                E-Certificate  ช่วยการันตีความโปรที่คุณได้ลองมากมาย ด้วยการสแกน Qr Code ที่จุดร่วมกิจกรรม 
+                <br>เพื่อรับใบเซอร์กลับไปสะสมลงพอร์ตอัปสกิลกันอย่างปัง ๆ ได้เลย
+            </p1>
+          </div>
+          <div id="food" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>FLAVORFUL FAIR <br>ลองชิมร้านมือโปร</h3>
+            <p1>มา BU OPEN HOUSE ปีนี้ไม่มีอด นอกจากจะได้ลองเล่นระดับโปรแล้ว เรายังมีร้านอาหารสุด Pro ที่มีชื่อเสียงทั่วประเทศ 
+                ทั้งคาวหวานมาให้ได้ลองชิมกันถึงที่ นอกจากนี้ยังโชว์ความ Pro ด้วยร้านอาหารชื่อดังที่เป็นผลงานศิษย์เก่ามหาวิทยาลัยกรุงเทพอีกด้วย 
+                เช่น ฉันจะกินชาเย็นทุกวัน
+            </p1>
+          </div>
+          <div id="night" class="tabcontent" style="background-color: whitesmoke;">
+            <h3>FANCY NIGHT <br>ลองสนุกให้สุด</h3>
+            <p1>หลังจากลองเล่นกับทุกกิจกรรมแล้ว มาปิดท้ายวันด้วยคอนเสิร์ตให้มันส์สุดเหวี่ยง
+                กับศิลปินสุด Pro ชื่อดังที่รอให้ทุกคนมาสนุกให้สุดไปกับคอนเสิร์ตและโชว์พิเศษ
+                ไม่ว่าจะ 4EVE, DICE, MXFRUIT, DIDIxDADA, FELLOW FELLOW, BAMM
+                พร้อมเอ็นจอยกับอาหารหลากหลายที่จะมาช่วยเติมพลังก่อนกลับบ้าน
+            </p1>
+          </div>
+
+
+
+
+
+        <script src="navigatorBar.js"></script>
+        <script src="grid.js"></script>
+        <script src="tab.js"></script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
